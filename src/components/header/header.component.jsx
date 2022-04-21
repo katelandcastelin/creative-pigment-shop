@@ -14,16 +14,16 @@ import './header.styles.scss';
 
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
-    <Link className='logo-container' to='/'>
-      <Logo className='logo' />
+    <Link className='option' to='/'>
+      <h1>Creative Pigment</h1>
     </Link>
     <div className='options'>
-      <Link className='option' to='/shop'>
+      {/* <Link className='option' to='/shop'>
         SHOP
-      </Link>
-      <Link className='option' to='/shop'>
+      </Link> */}
+      {/* <Link className='option' to='/shop'>
         CONTACT
-      </Link>
+      </Link> */}
       {currentUser ? (
         <div className='option' onClick={() => auth.signOut()}>
           SIGN OUT

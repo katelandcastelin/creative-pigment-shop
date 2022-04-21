@@ -1,0 +1,32 @@
+// .content {
+//   flex: 1 0 auto;
+//   padding: 10px;
+// }
+
+// .footer {
+//   flex-shrink: 0;
+//   text-align: center;
+//   background-color: tomato;
+//   color: white;
+// }
+
+.footer {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}
