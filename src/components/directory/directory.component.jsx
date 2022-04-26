@@ -3,7 +3,6 @@ import React from 'react';
 import MenuItem from '../menu-item/menu-item.component';
 
 import './directory.styles.scss';
-
 class Directory extends React.Component {
   constructor() {
     super();
@@ -30,14 +29,14 @@ class Directory extends React.Component {
       // },
       {
         title: 'shop',
-        imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+        // imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
         size: 'large',
         id: 4,
-        linkUrl: 'shop'
+        linkUrl: 'shop-list'
       },
       {
         title: 'lookbook',
-        imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+        // imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
         size: 'large',
         id: 5,
         linkUrl: 'lookbook'

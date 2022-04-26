@@ -2,11 +2,11 @@ import React from 'react';
 
 import Directory from '../../components/directory/directory.component';
 
-import './homepage.styles.scss';
+import './lookbook.styles.scss';
 
 const Lookbook = () => (
     <div className='lookbook'>
-        <Directory />
+        <h1>lookbook</h1>
     </div>
 );
 

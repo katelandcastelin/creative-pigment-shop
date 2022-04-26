@@ -6,7 +6,8 @@ import { connect } from 'react-redux';
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
-import ShopPage from './pages/shop/shop.component';
+import ShopList from './pages/shop list/shop-list.component';
+import Lookbook from './pages/lookbook/lookbook.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
@@ -44,7 +45,8 @@ class App extends React.Component {
         <Header />
         <Switch>
           <Route exact path='/' component={HomePage} />
-          <Route path='/shop' component={ShopPage} />
+          <Route path='/shop-list' component={ShopList} />
+          <Route path='/lookbook' component={Lookbook} />
           <Route
             exact
             path='/signin'
